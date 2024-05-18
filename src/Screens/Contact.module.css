@@ -1,0 +1,74 @@
+.contact {
+  display: flex;
+  padding: 50px 20px; /* Ajuste de padding para más espacio en los laterales */
+  flex-direction: column;
+  background: linear-gradient(180deg, #1a1826, #413b5e);
+  align-items: center;
+  text-align: center; /* Centramos el contenido */
+}
+
+.contact h2 {
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 2.5em;
+  margin-bottom: 40px; /* Espacio adicional debajo del título */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%; /* Ampliamos el ancho para dispositivos pequeños */
+  max-width: 600px; /* Limitamos el ancho máximo */
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para destacar el formulario */
+  padding: 20px; /* Añadimos padding para espacio interior */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.input {
+  border: 1px solid #7060c0; /* Cambio de color del borde para mayor contraste */
+  width: 100%;
+  height: 40px; /* Aumentamos la altura de los inputs */
+  background: rgba(65, 59, 94, 0.8); /* Fondo con opacidad */
+  color: #f1f1f1;
+  margin-top: 15px;
+  padding: 10px; /* Añadimos padding interno */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 1em; /* Ajustamos el tamaño de fuente */
+}
+
+.form textarea {
+  border: 1px solid #7060c0; /* Cambio de color del borde para mayor contraste */
+  color: #f1f1f1;
+  resize: none;
+  width: 100%;
+  height: 100px; /* Altura específica para el textarea */
+  margin-top: 15px;
+  background: rgba(65, 59, 94, 0.8); /* Fondo con opacidad */
+  padding: 10px; /* Añadimos padding interno */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 1em; /* Ajustamos el tamaño de fuente */
+}
+
+.form button {
+  width: 120px; /* Ampliamos el botón */
+  height: 40px;
+  border-radius: 4px;
+  background: #7060c0; /* Fondo del botón para mayor visibilidad */
+  border: none; /* Eliminamos el borde */
+  margin-top: 20px; /* Más espacio arriba del botón */
+  color: #f1f1f1;
+  font-size: 1em; /* Ajustamos el tamaño de fuente */
+  cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+  transition: background 0.3s; /* Transición suave al pasar sobre el botón */
+}
+
+.form button:hover {
+  background: #413b5e; /* Color de fondo al pasar el mouse */
+}
+
+.form label {
+  color: #f1f1f1;
+  margin-top: 10px; /* Más espacio arriba de las etiquetas */
+  font-size: 1em;
+}
